@@ -1,0 +1,310 @@
+@font-face
+{
+	font-family: Monotype Corsiva; /* ��� ������ */
+    src: url(./fonts/MTCORSVA.TTF); /* ���� � ����� �� ������� */
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url('/img/background_winter.jpg');
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+
+#main
+{
+	margin: 0 auto;
+	width: 1000px;
+	background: url('/img/transparent_background.png');
+}
+#header
+{
+	height: 145.8px;
+}
+
+#header span
+{
+	position: absolute;
+}
+
+#logo
+{
+	margin-left: 160px;
+}
+
+#instagram
+{
+	top: 17px;
+	margin-left: 814px;
+}
+
+#vk
+{
+	top: 17px;
+	margin-left: 875px;
+}
+
+#facebook
+{
+	top: 17px;
+	margin-left: 935px;
+}
+
+#tel
+{
+	display: inline-block;
+	width: 250px;
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 24px;
+	top: 78.2px;
+	margin-left: 737.6px;
+		
+}
+
+#top_menu
+{
+	height: 58px;
+	background: url('/img/menu_line.png') repeat-x;
+	
+}
+
+#top_menu>div
+{
+	position: absolute;
+	margin-left: 120px;
+}
+
+#top_menu a
+{
+	display: inline-block;
+	padding-top: 11.5px;
+	width: 153px;
+	text-decoration: none;
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 36px;
+	color: #000;
+	text-shadow: 0 -2px 3px #fff, 2px 1px 5px #000;
+}
+
+#top_menu a:hover
+{
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 36px;
+	color: #000;
+	text-shadow: 0px 0px 3px rgba(70, 70, 70, 0.1), 1px 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+
+#general>div
+{
+	margin:0 auto;
+	width: 800px;
+}
+
+#general>div>img
+{
+	
+	margin: 0 20px;
+}
+
+#general p, ul
+{
+	/*border: 1px solid red;*/
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 26px;
+	text-align: justify;
+	
+	
+}
+
+
+#h1_style
+{
+	text-align: center;
+	color: #ccc;
+	text-shadow: 0px 0px 3px #222, 1px 1px 0 #555 ;	
+}
+
+h1
+{
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 39px;
+	
+	
+}
+
+#footer
+{
+	height: 40px;
+	background: url('/img/header_line.png') repeat-x;
+	margin-top: 100px;
+}
+
+#footer_owner
+{
+	position: absolute;
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#footer_author
+{	
+	position: absolute;
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 670px;
+}
+
+#gallery_main
+{	
+	overflow:hidden;
+}
+
+.gallery
+{
+	float: left;
+	margin-left: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.gallery div
+{
+	width: 290px;
+	height: 233px;
+	background-color: #5a94dc
+}
+
+#category_main
+{	
+	overflow:hidden;
+}
+
+#category_main h1
+{	
+	text-align: center;
+	color: #ccc;
+	text-shadow: 0px 0px 3px #222, 1px 1px 0 #555 ;
+}
+
+.category
+{
+	float: left;
+	margin: 15px 0 5px 17px;
+	
+}
+
+.category img
+{
+	border: 5px solid #5a94dc;
+}
+
+#photo img
+{
+	display: block;
+	margin: 20px auto 0;
+	border: 5px solid #5a94dc;
+}
+
+
+
+#gallery_main p
+{
+	margin: 0;
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 26px;
+	color: #ccc;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-shadow: 0px 0px 3px #222, 1px 1px 0 #555 ;
+}
+
+#gallery_main a
+{
+	text-decoration: none;
+}
+
+#general_fedback h1
+{	
+	text-align: center;
+	color: #ccc;
+	text-shadow: 0px 0px 3px #222, 1px 1px 0 #555 ;
+}
+
+#general_fedback>div
+{
+	width: 900px;
+	margin: 0px auto;
+	
+}
+
+.decor_feedback
+{
+	background: url('/img/2.png');
+	border-radius: 0 50px 50px 0;
+	border: 2px solid grey;
+	margin: 20px auto;
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 26px;
+}
+
+.client_name
+{
+	color: green;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+
+.client_feedback
+{
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.date_feedback
+{
+	color: #ccc;
+	text-shadow: 0px 0px 3px #222, 1px 1px 0 #555 ;
+	font-size: 20px;
+	margin-left: 700px;
+	
+}
+
+#feddback_form
+{
+	font-family: Monotype Corsiva, URW Chancery L;
+	font-size: 22px;
+}
+
+#feddback_form input
+{
+	border: 2px solid grey;
+	width: 300px;
+}
+
+#feddback_form button
+{
+	border: 2px solid grey;
+	width: 300px;
+}
+
+#feddback_form textarea
+{
+	width: 500px;
+	height: 200px;
+	border: 2px solid grey;
+}
+
+#button_feedback
+{
+	
+	width: 150px;
+	border: 2px solid grey;
+}
